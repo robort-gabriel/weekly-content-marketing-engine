@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="176" viewBox="0 0 560 176" role="img" aria-labelledby="ptitle pdesc">
+  <title id="ptitle">Weekly Content Marketing Engine pipeline</title>
+  <desc id="pdesc">Three stage pipeline: analyze a website for content gaps, write an SEO blog post, repurpose it into social drafts.</desc>
+  <rect width="560" height="176" rx="14" fill="#022c22"/>
+  <rect x="1.5" y="1.5" width="557" height="173" rx="12.5" fill="none" stroke="#115e59"/>
+  <text x="280" y="28" fill="#5eead4" text-anchor="middle" font-family="system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">KEEPS THE CONTENT PIPELINE FULL, WEEKLY</text>
+
+  <!-- Stage 1: ANALYZE -->
+  <g transform="translate(24 44)">
+    <rect width="150" height="96" rx="10" fill="#064e3b" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="75" y="24" fill="#5eead4" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">ANALYZE</text>
+    <text x="75" y="46" fill="#d1fae5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9.5">Crawl site, find</text>
+    <text x="75" y="60" fill="#d1fae5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9.5">content gaps</text>
+    <text x="75" y="82" fill="#6ee7b7" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill-opacity="0.8">website-analyzer</text>
+  </g>
+
+  <path d="M180 92 L 202 92" stroke="#14b8a6" stroke-width="2" fill="none" marker-end="url(#arrow1)"/>
+
+  <!-- Stage 2: WRITE -->
+  <g transform="translate(206 44)">
+    <rect width="150" height="96" rx="10" fill="#064e3b" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="75" y="24" fill="#fcd34d" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">WRITE</text>
+    <text x="75" y="46" fill="#d1fae5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9.5">Full SEO blog post,</text>
+    <text x="75" y="60" fill="#d1fae5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9.5">site's own voice</text>
+    <text x="75" y="82" fill="#fde68a" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill-opacity="0.8">seo-content-writer</text>
+  </g>
+
+  <path d="M362 92 L 384 92" stroke="#f59e0b" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+
+  <!-- Stage 3: REPURPOSE -->
+  <g transform="translate(388 44)">
+    <rect width="150" height="96" rx="10" fill="#064e3b" stroke="#d946ef" stroke-width="1.5"/>
+    <text x="75" y="24" fill="#f0abfc" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">REPURPOSE</text>
+    <text x="75" y="46" fill="#d1fae5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9.5">LinkedIn, X thread,</text>
+    <text x="75" y="60" fill="#d1fae5" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9.5">carousel outline</text>
+    <text x="75" y="82" fill="#f5d0fe" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill-opacity="0.8">social-repurposer</text>
+  </g>
+
+  <defs>
+    <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L 6 3 L 0 6 Z" fill="#14b8a6"/>
+    </marker>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L 6 3 L 0 6 Z" fill="#f59e0b"/>
+    </marker>
+  </defs>
+</svg>

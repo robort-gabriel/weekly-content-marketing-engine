@@ -1,4 +1,27 @@
-# Weekly Content Marketing Engine
+<h1 align="center">Weekly Content Marketing Engine</h1>
+
+<p align="center">
+  Keeps a website's content pipeline full automatically.<br/>
+  Finds a content gap, writes a full SEO blog post, and repurposes it into social drafts.
+</p>
+
+<p align="center">
+  <img src="assets/zo-logo.png" alt="Zo Computer" width="64" />
+</p>
+
+<p align="center">
+  <img src="assets/pipeline-diagram.svg" alt="Analyze to Write to Repurpose pipeline" width="560" />
+</p>
+
+<p align="center">
+  <img alt="workflow: gap-driven" src="https://img.shields.io/badge/workflow-gap--driven-14b8a6" /> <img alt="cadence: weekly" src="https://img.shields.io/badge/cadence-weekly-f59e0b" />
+</p>
+<p align="center">
+  <img alt="output: blog post + drafts" src="https://img.shields.io/badge/output-blog%20post%20%2B%20drafts-d946ef" /> <img alt="publishing: manual" src="https://img.shields.io/badge/publishing-manual-64748b" />
+</p>
+<p align="center">
+  <img alt="external APIs: none" src="https://img.shields.io/badge/external%20APIs-none-brightgreen" /> <img alt="runtime: Zo Computer" src="https://img.shields.io/badge/runtime-Zo%20Computer-111827" />
+</p>
 
 ## Overview
 
@@ -64,6 +87,9 @@ Zo-Automations/weekly-content-marketing-engine/
 ├── persona.md                        # exact text for the dedicated "Weekly Content Marketing Engine" persona
 ├── automation-prompt.md              # instructions for the scheduled agent
 ├── starter-prompts.md                # example prompts
+├── assets/
+│   ├── pipeline-diagram.svg          # README header pipeline diagram
+│   └── zo-logo.png                   # Zo Computer logo used in this README
 └── Skills/
     ├── website-analyzer/
     │   └── SKILL.md
