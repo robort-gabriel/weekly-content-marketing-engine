@@ -1,12 +1,12 @@
 <h1 align="center">Weekly Content Marketing Engine</h1>
 
 <p align="center">
-  Keeps a website's content pipeline full automatically.<br/>
-  Finds a content gap, writes a full SEO blog post, and repurposes it into social drafts.
+  An AI agent automation workflow that keeps a website's content pipeline full automatically.<br/>
+  Finds a content gap, writes a full SEO blog post, and repurposes it into social drafts, built on Zo Computer and compatible with Claude AI.
 </p>
 
 <p align="center">
-  <img src="assets/zo-logo.png" alt="Zo Computer" width="64" />
+  <img src="assets/zo-logo.png" alt="Zo Computer" width="64" /> <img src="assets/claude-logo.png" alt="Claude AI" width="64" />
 </p>
 
 <p align="center">
@@ -22,10 +22,13 @@
 <p align="center">
   <img alt="external APIs: none" src="https://img.shields.io/badge/external%20APIs-none-brightgreen" /> <img alt="runtime: Zo Computer" src="https://img.shields.io/badge/runtime-Zo%20Computer-111827" />
 </p>
+<p align="center">
+  <img alt="model: Claude AI" src="https://img.shields.io/badge/model-Claude%20AI-CC785C?logo=claude&logoColor=white" />
+</p>
 
 ## Overview
 
-Keeps a website's content pipeline full automatically. Give it a website URL and a three-stage pipeline crawls the site's latest pages, finds a topic with real SEO potential it hasn't covered, writes a full SEO blog post about it, and repurposes that post into a LinkedIn post, an X thread, and a carousel slide outline. Runs entirely on free, built-in Zo tools — no paid crawling, SEO, or content-generation API required, and it never publishes anything on its own.
+Keeps a website's content pipeline full automatically. This AI agent automation workflow gives it a website URL and runs a three-stage pipeline that crawls the site's latest pages, finds a topic with real SEO potential it hasn't covered, writes a full SEO blog post about it, and repurposes that post into a LinkedIn post, an X thread, and a carousel slide outline. Runs entirely on free, built-in Zo Computer tools — no paid crawling, SEO, or content-generation API required, and it never publishes anything on its own. Every skill is also compatible with Claude AI or any agentic framework, not just Zo's own routing.
 
 ## Features
 
@@ -56,6 +59,14 @@ If you'd rather install by hand:
 2. Copy the whole folder into your Zo workspace at `/home/workspace/Zo-Automations/weekly-content-marketing-engine/`, preserving the structure below. The three skills must stay project-local at `Skills/website-analyzer/`, `Skills/seo-content-writer/`, `Skills/social-repurposer/` — they are not installed globally, and moving them elsewhere breaks the project's scoping.
 3. (Optional) In a chat, ask Zo to create a persona for this project using the exact text in `persona.md` so you don't have to restate the pipeline every time.
 4. Try it: paste one of the examples from `starter-prompts.md` into a chat.
+
+### Claude AI path
+
+The three skills (`website-analyzer`, `seo-content-writer`, `social-repurposer`) are plain `SKILL.md` files with no Zo-specific dependencies, so they also run under Claude AI:
+
+1. Copy the `Skills/website-analyzer/`, `Skills/seo-content-writer/`, and `Skills/social-repurposer/` folders into wherever your Claude AI setup reads skills/instructions from (e.g. a project folder for Claude Code, or attached as reference files in Claude Desktop/the Anthropic API).
+2. Give Claude AI the same three stages in order, using `website_url` (and optional `focus_topic`) as inputs, and file-based handoff between stages (see Usage below) instead of Zo's built-in tools for web reads/searches.
+3. No API key or extra sign-up beyond your existing Claude AI access is required.
 
 ## Configuration
 
@@ -89,7 +100,8 @@ Zo-Automations/weekly-content-marketing-engine/
 ├── starter-prompts.md                # example prompts
 ├── assets/
 │   ├── pipeline-diagram.svg          # README header pipeline diagram
-│   └── zo-logo.png                   # Zo Computer logo used in this README
+│   ├── zo-logo.png                   # Zo Computer logo used in this README
+│   └── claude-logo.png               # Claude AI logo used in this README
 └── Skills/
     ├── website-analyzer/
     │   └── SKILL.md
